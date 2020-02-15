@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  line-height: 28px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  border-bottom: gray solid 2px;
+  padding:40px;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+#목차 {
+  border-right: gray solid 2px;
+  width: 180px;
+  margin-top: 0;
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 18px;
+}
+#제목{
+color: blue;
+}
+#묶음{
+display: grid;
+grid-template-columns: 220px 1fr;
+}
+@media(max-width:567px) {
+#묶음{
+display: block;
+}
+#목차{
+    border-right:none;
+  }
+}
